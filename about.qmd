@@ -4,6 +4,4 @@ title: "About"
 
 About this site
 
-```{r}
-1 + 1
-```
+Zach Robarge, saxophone, clarinet, ﬂute, and oboe, holds a bachelor’s degree in saxophone performance and music education, as well as a performance certiﬁcate in ﬂute and oboe studies, all from The University of Massachusetts. Zach has a wide variety of performance experience in many different ensembles, including playing with the community wind ensemble, The Valley Winds, and theatre companies such as Barrington Stage Co and the Berkshire Theatre Group. Zach also teaches at the Prindle School, and in the Belchertown School District.
