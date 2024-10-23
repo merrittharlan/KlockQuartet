@@ -1,5 +1,5 @@
 ---
-title: "KlockQuartet"
+title: "Klock Quartet"
 ---
 
 This is a Quarto website.
