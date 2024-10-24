@@ -2,6 +2,29 @@
 title: "About"
 ---
 
-About this site
+## Zachary Robarge
 
-Zach Robarge, saxophone, clarinet, ﬂute, and oboe, holds a bachelor’s degree in saxophone performance and music education, as well as a performance certiﬁcate in ﬂute and oboe studies, all from The University of Massachusetts. Zach has a wide variety of performance experience in many different ensembles, including playing with the community wind ensemble, The Valley Winds, and theatre companies such as Barrington Stage Co and the Berkshire Theatre Group. Zach also teaches at the Prindle School, and in the Belchertown School District.
+![](images/ZachRobarge.jpeg)
+
+Based in Denver, CO, Zachary Robarge is a versatile musician with deep roots in Western Massachusetts. Zachary attended the University of Massachusetts Amherst where he met and formed a saxophone quartet with Tyler, Benjamin, and Eric, studying under Professor Lynn Klock. He then pursued a flute certificate, followed by a Master's Degree in Classical Saxophone Performance, coming full circle to then teach as an Artist in Residence in Saxophone all at the University of Massachusetts Amherst. With a passion for all forms of music he brings a unique sound and energy to every performance.
+
+As a dedicated member and founder of a dynamic saxophone quartet, Zachary Robarge has played at numerous venues and events, both with the quartet and other musical groups. Recently, Zachary has performed with several Denver-based groups, including the Denver Wind Ensemble, the Jefferson Symphony Orchestra, the Coveralls, and Ixchel Dion and the New Beginnings. In addition to saxophone, Zach is a woodwind doubler, and enjoys perfoming in local musicals in the Denver area and throughout New England. Beyond performing, he is committed to mentoring the next generation of musicians through teaching privately and within school systems.
+
+## Tyler Clayton Appel
+
+![](images/TylerAppel.png){width="573"}
+
+Tyler Clayton Appel is a NYC-based artist whose primary media are music and film. \
+Tyler has been playing saxophone since he was 10, guitar since he was 15, and singing since he could speak.\
+\
+Tyler studied music, acting, filmmaking, photography, and literature at the University of Massachusetts Amherst.
+
+## Benjamin Porter
+
+![](images/BenPorter.jpeg)
+
+Benjamin Porter is also based in Denver, CO, where he moved from New England to pursue a Master's Degree in Saxophone, and certificate in jazz performance. Benjamin teaches at the Waldorf School of Music in Denver and recently performed a concert of his compositions at the University of Denver.
+
+## Eric
+
+Eric plays soprano and is based in Detroit Michigan.

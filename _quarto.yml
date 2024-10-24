@@ -3,6 +3,9 @@ project:
 
 website:
   title: "Klock Saxophone Quartet"
+  twitter-card: true
+  favicon: logo.png
+  open-graph: true
   navbar:
     right:
       - href: index.qmd
