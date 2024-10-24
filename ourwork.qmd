@@ -2,6 +2,8 @@
 title: "Our Work"
 ---
 
-![](images/Screenshot 2024-10-23 at 6.19.59 PM.png)
+Recent Performances:
 
 {{< video https://www.youtube.com/watch?v=MSvDrfPLjlc >}}
+
+To get in touch with us about booking performances, please reach out to us @ klockquartet\@gmail.com.

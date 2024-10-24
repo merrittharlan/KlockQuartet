@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Klock Quartet",
     "section": "",
-    "text": "The Klock Quartet\nLynn Klock (born August 12, 1950)[1] is an American classical saxophonist and educator. He is Principal Saxophone of the Springfield Symphony Orchestra in Springfield, Massachusetts."
+    "text": "![Photo of the Quartet](QuartetPhoto.png)"
   },
   {
     "objectID": "about.html",
@@ -39,13 +39,13 @@
     "href": "contact.html",
     "title": "Contact Us",
     "section": "",
-    "text": "Email: klockquartet@gmail.coms\nInstagram:\nTwitter:"
+    "text": "Email: klockquartet@gmail.com\nInstagram:\nTwitter:"
   },
   {
     "objectID": "ourwork.html",
     "href": "ourwork.html",
     "title": "Our Work",
     "section": "",
-    "text": "Klock Quartet Performance at the University of Massachusetts Amherst"
+    "text": "Recent Performances:\n\nTo get in touch with us about booking performances, please reach out to us @ klockquartet@gmail.com."
   }
 ]
