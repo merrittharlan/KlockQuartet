@@ -2,8 +2,20 @@
 title: "Our Work"
 ---
 
-Recent Performances:
+## 🎷 Recent Performances
 
-{{< video https://www.youtube.com/watch?v=MSvDrfPLjlc >}}
+<div style="max-width: 800px; margin: 2rem auto; text-align: center;">
+  <iframe width="100%" height="450" 
+    src="https://www.youtube.com/embed/MSvDrfPLjlc?start=206" 
+    frameborder="0" allowfullscreen>
+  </iframe>
+</div>
 
-To get in touch with us about booking performances, please reach out to us @ klockquartet\@gmail.com.
+---
+
+## 📬 Book Us
+
+We’d love to bring our music to your event, festival, or venue.
+
+Email us directly at [klockquartet@gmail.com](mailto:klockquartet@gmail.com)  
+or use our [Contact Form](contact.qmd).

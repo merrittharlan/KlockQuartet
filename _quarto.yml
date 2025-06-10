@@ -6,7 +6,10 @@ website:
   twitter-card: true
   favicon: logo.png
   open-graph: true
+
   navbar:
+    logo: logo.png
+    title: false
     right:
       - href: index.qmd
         text: Home
@@ -16,8 +19,11 @@ website:
 
 format:
   html:
-    theme: slate
+    theme: cosmo
     css: styles.css
+    font-google: 
+      - family: Montserrat
+        weights: [300]   # Light weight
     toc: true
 
 editor: visual

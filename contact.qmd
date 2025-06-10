@@ -1,13 +1,99 @@
 ---
-title: "Contact Us"
+title: "Contact"
 ---
 
-Email: klockquartet\@gmail.com
+<style>
+  .contact-intro {
+    max-width: 600px;
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    color: #003366;
+  }
 
-Instagram:
+  .contact-form {
+    max-width: 600px;
+    margin: 1rem auto 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif;
+  }
 
--   <https://www.instagram.com/porter.sax/>
+  .contact-form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #003366;
+  }
 
--   
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
 
-Twitter:
+  .contact-form textarea {
+    resize: vertical;
+  }
+
+  .contact-form button {
+    margin-top: 1.5rem;
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #005599;
+  }
+
+  .thank-you-message {
+    display: none;
+    text-align: center;
+    color: #006600;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+
+<div class="contact-intro">
+  Email us directly at <a href="mailto:klockquartet@gmail.com">klockquartet@gmail.com</a>  
+  or fill out the form below.
+</div>
+
+<form class="contact-form" action="mailto:klockquartet@gmail.com" method="post" enctype="text/plain" onsubmit="showThankYou()">
+  <label for="name">Name</label>
+  <input type="text" name="Name" id="name" required />
+
+  <label for="email">Email</label>
+  <input type="email" name="Email" id="email" required />
+
+  <label for="message">Message</label>
+  <textarea name="Message" id="message" rows="6" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<div class="thank-you-message" id="thankYou">
+  Thank you for your message! Your email client should open shortly.
+</div>
+
+<script>
+  function showThankYou() {
+    document.getElementById("thankYou").style.display = "block";
+  }
+</script>

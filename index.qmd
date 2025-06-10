@@ -1,9 +1,18 @@
 ---
-title: "Klock Quartet"
+title: ""
+format: 
+  html:
+    css: styles.css
 ---
 
-![Klock Quartet perfoming at the University of Massachusetts Amherst](images/QuartetPhoto.png)
+<main>
+  <section class="hero-section">
+    <img src="images/QuartetPhoto.png" alt="Klock Quartet" class="hero-image" />
+    <p>The Klock Quartet is a saxophone quartet formed by a tight-knit group of musicians who met as undergraduates at the University of Massachusetts Amherst. Mentored by renowned professor Lynn Klock, the group forged a lasting musical bond and friendship that continues to shape their distinctive sound today. Group members include Zachary Robarge (Denver, CO), Benjamin Porter (Denver, CO), Tyler Clayton Appel (New York City), and Erik Anundson (Michigan). </p>
+    <p>With performances spanning from the Saxophone Symposium at the University of Massachusetts Amherst to weddings, schools, and community events, the Klock Quartet brings expressive playing, rich harmonies, and a fresh blend of styles to every stage.</p>
+  </section>
+</main>
 
-Formed by a group of dedicated music professionals who met during their undergraduate studies at the University of Massachusetts Amherst, the Klock Quartet is a passionate ensemble celebrating the versatility of the saxophone. Under the guidance of renowned professor Lynn Klock, the members developed a deep musical connection that continues to thrive today.
-
-The quartet has recently showcased their talent at the Saxophone Symposium at the University of Massachusetts Amherst, the University of Denver, Colorado, as well as weddings, and local schools, bringing a unique blend of styles and rich harmonies to every performance. Committed to sharing their love for music, the Klock Quartet aims to create memorable experiences through their artistry and collaboration.
+<footer class="site-footer">
+  <p>&copy; 2025 Klock Quartet. All rights reserved.</p>
+</footer>

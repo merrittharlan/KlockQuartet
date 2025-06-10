@@ -2,29 +2,70 @@
 title: "About"
 ---
 
-## Zachary Robarge
+<style>
+.about-image {
+  max-width: 250px;
+  height: auto;
+  filter: grayscale(100%);
+  margin: 1rem auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.about-section {
+  max-width: 700px;
+  margin: 3rem auto;
+  font-family: 'Inter', sans-serif;
+  color: #003300;
+}
+.about-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.about-bio {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 0;
+  padding: 0 1rem;
+}
+</style>
 
-![](images/ZachRobarge.jpeg)
+<div class="about-section">
+  
+  <h2 class="about-name">Zachary Robarge</h2>
+  <img src="images/ZachRobarge.jpeg" alt="Zachary Robarge" class="about-image" />
+  <p class="about-bio">
+    Zach loves pokemon, Stardew, and saxophone, but not as much as he loves hiking, skiing, and Merritt.
+  </p>
+</div>
 
-Based in Denver, CO, Zachary Robarge is a versatile musician with deep roots in Western Massachusetts. Zachary attended the University of Massachusetts Amherst where he met and formed a saxophone quartet with Tyler, Benjamin, and Eric, studying under Professor Lynn Klock. He then pursued a flute certificate, followed by a Master's Degree in Classical Saxophone Performance, coming full circle to then teach as an Artist in Residence in Saxophone all at the University of Massachusetts Amherst. With a passion for all forms of music he brings a unique sound and energy to every performance.
+<div class="about-section">
+  
+  <h2 class="about-name">Tyler Clayton Appel</h2>
+  <img src="images/TylerAppel.png" alt="Tyler Clayton Appel" class="about-image" />
+  <p class="about-bio">
+    Tyler can talk about any topic and is freakishly nice.
+  </p>
+</div>
 
-As a dedicated member and founder of a dynamic saxophone quartet, Zachary Robarge has played at numerous venues and events, both with the quartet and other musical groups. Recently, Zachary has performed with several Denver-based groups, including the Denver Wind Ensemble, the Jefferson Symphony Orchestra, the Coveralls, and Ixchel Dion and the New Beginnings. In addition to saxophone, Zach is a woodwind doubler, and enjoys perfoming in local musicals in the Denver area and throughout New England. Beyond performing, he is committed to mentoring the next generation of musicians through teaching privately and within school systems.
+<div class="about-section">
+  
+  <h2 class="about-name">Benjamin Porter</h2>
+  <img src="images/BenPorter.jpeg" alt="Benjamin Porter" class="about-image" />
+  <p class="about-bio">
+    Ben has never lost a game of Catan (to Merritt at least).
+  </p>
+</div>
 
-## Tyler Clayton Appel
+<div class="about-section">
+  
+  <h2 class="about-name">Erik Anundson</h2>
+  <p class="about-bio">
+    Merritt wishes she knew Erik better.
+  </p>
+</div>
 
-![](images/TylerAppel.png){width="573"}
-
-Tyler Clayton Appel is a NYC-based artist whose primary media are music and film. \
-Tyler has been playing saxophone since he was 10, guitar since he was 15, and singing since he could speak.\
-\
-Tyler studied music, acting, filmmaking, photography, and literature at the University of Massachusetts Amherst.
-
-## Benjamin Porter
-
-![](images/BenPorter.jpeg)
-
-Benjamin Porter is also based in Denver, CO, where he moved from New England to pursue a Master's Degree in Saxophone, and certificate in jazz performance. Benjamin teaches at the Waldorf School of Music in Denver and recently performed a concert of his compositions at the University of Denver.
-
-## Eric
-
-Eric plays soprano and is based in Detroit Michigan.
