@@ -48,7 +48,7 @@ title: "About"
   <h2 class="about-name">Tyler Clayton Appel</h2>
   <img src="images/TylerAppel.png" alt="Tyler Clayton Appel" class="about-image" />
   <p class="about-bio">
-    Tyler can talk about any topic and is freakishly nice.
+    Tyler is like a character out of a book but real.
   </p>
 </div>
 

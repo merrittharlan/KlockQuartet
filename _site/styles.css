@@ -1,89 +1,41 @@
-/* Base Styles */
+/* css styles */
 body {
-  background-color: #ffffff;
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-  color: #003300;
   margin: 0;
-  padding: 0;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-/* Headers and Subheaders (h1–h6) with Montserrat font */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;        /* Light weight */
-  color: #003366;
-  text-align: center;
-  margin-top: 2rem;
-  text-transform: uppercase;   /* All caps */
-  letter-spacing: 0.05em;      /* Slight spacing between letters */
-}
-
-/* Paragraphs */
-p {
-  max-width: 900px;
-  margin: 1.5rem auto 2rem auto;
-  padding: 0 1rem;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  text-align: left;
-  color: #003300;
-}
-
-/* Hero Section */
+/* Hero section */
 .hero-section {
-  max-width: 1000px;
-  margin: 0 auto 3rem auto;
-  padding: 0 1rem;
   text-align: center;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
 }
 
-/* Hero Image */
 .hero-image {
   width: 100%;
-  max-width: 1000px;
+  max-width: 800px;  /* 🔧 Adjust image size here */
   height: auto;
-  display: block;
-  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+/* Paragraph text */
+.hero-section p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 /* Footer */
 .site-footer {
   text-align: center;
-  padding: 2rem 1rem;
-  background-color: #ffffff;
-  color: #003300;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #666;
   font-size: 0.9rem;
-  border-top: 1px solid #ccc;
-}
-
-/* Responsive Typography */
-@media (max-width: 768px) {
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1rem;
-    padding: 0 1.5rem;
-  }
-}
-
-.navbar-brand img {
-  max-height: 50px;
-  padding-right: 10px;
-  vertical-align: middle;
-}
-
-.navbar {
-  font-family: "Georgia", serif;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.navbar-nav > li > a {
-  font-weight: bold;
+  margin-top: 3rem;
 }

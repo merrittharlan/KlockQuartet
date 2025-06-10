@@ -8,8 +8,7 @@ website:
   open-graph: true
 
   navbar:
-    logo: logo.png
-    title: false
+    title: true
     right:
       - href: index.qmd
         text: Home
