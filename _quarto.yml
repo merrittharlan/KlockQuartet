@@ -8,7 +8,7 @@ website:
   open-graph: true
 
   navbar:
-    title: true
+    title: "Klock Saxophone Quartet"
     right:
       - href: index.qmd
         text: Home
