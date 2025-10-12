@@ -214,34 +214,44 @@ body .container {
   background-color: #555;
 }
 
+/* Narrow margins on small screens */
 @media (max-width: 600px) {
-  #about-page .about-container {
-    grid-template-columns: 1fr;
-    padding: 0 1rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
   main.content,
   .page-content,
   .quarto-container,
   body .container {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
 
-  .about-bio {
-    text-align: left;
-    font-size: 0.95rem;
-    padding: 0;
-  }
-
-  .hero-image,
-  .mySwiper,
   .site-footer {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 
+/* Responsive site title in navbar */
+.navbar-brand {
+  font-size: clamp(1rem, 4vw, 2rem);
+  font-family: 'Playfair Display', serif;
+}
+
+/* Responsive page H1 title */
+h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+/* Space between sections */
+h2 {
+  margin-top: 2.5rem;
+}
+
+/* Extra space below navbar */
+main.content {
+  padding-top: 3rem;
+}
