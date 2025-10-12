@@ -9,6 +9,7 @@ website:
 
   navbar:
     title: "Klock Saxophone Quartet"
+    search: false
     right:
       - href: index.qmd
         text: Home
@@ -18,12 +19,15 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
-    font-google: 
+    font-google:
+      - family: Inter
+        weights: [400,700]
       - family: Montserrat
-        weights: [300]   # Light weight
-    toc: true
+        weights: [300,400,700]
+      - family: Roboto
+        weights: [400,700]
 
 editor: visual
 

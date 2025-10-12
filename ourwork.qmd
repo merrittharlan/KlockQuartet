@@ -1,8 +1,8 @@
 ---
-title: "Our Work"
+title: "Music"
 ---
 
-## 🎷 Recent Performances
+## Recent Performances
 
 <div style="max-width: 800px; margin: 2rem auto; text-align: center;">
   <iframe width="100%" height="450" 
@@ -13,9 +13,19 @@ title: "Our Work"
 
 ---
 
-## 📬 Book Us
+*Quatuor de saxophones* by Ida Gotvoksky (1983)
+
+40th Annual New England Saxophone Symposium, University of Massachusetts Amherst
+
+## Book Us
+
+![Klock Quartet playing a wedding cocktail hour](images/weddinggood2.png){ width=100% style="max-width:800px; display:block; margin:2rem auto;" }
 
 We’d love to bring our music to your event, festival, or venue.
 
 Email us directly at [klockquartet@gmail.com](mailto:klockquartet@gmail.com)  
 or use our [Contact Form](contact.qmd).
+
+<footer class="site-footer">
+  <p>&copy; 2025 Klock Quartet. All rights reserved.</p>
+</footer>

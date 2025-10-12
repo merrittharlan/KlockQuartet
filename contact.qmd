@@ -9,7 +9,7 @@ title: "Contact"
     text-align: center;
     font-size: 1.1rem;
     font-family: 'Inter', sans-serif;
-    color: #003366;
+    color: #36454F;
   }
 
   .contact-form {
@@ -27,7 +27,7 @@ title: "Contact"
     display: block;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    color: #003366;
+    color: #36454F;
   }
 
   .contact-form input,
@@ -46,7 +46,7 @@ title: "Contact"
 
   .contact-form button {
     margin-top: 1.5rem;
-    background-color: #003366;
+    background-color: #36454F;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -56,7 +56,7 @@ title: "Contact"
   }
 
   .contact-form button:hover {
-    background-color: #005599;
+    background-color: #36454F;
   }
 
   .thank-you-message {
@@ -71,7 +71,7 @@ title: "Contact"
 </style>
 
 <div class="contact-intro">
-  Email us directly at <a href="mailto:klockquartet@gmail.com">klockquartet@gmail.com</a>  
+  For bookings, workshop inquiries, or questions feel free to email us directly at <a href="mailto:klockquartet@gmail.com">klockquartet@gmail.com</a>, call (413)446-6285
   or fill out the form below.
 </div>
 
@@ -97,3 +97,7 @@ title: "Contact"
     document.getElementById("thankYou").style.display = "block";
   }
 </script>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Klock Quartet. All rights reserved.</p>
+</footer>

@@ -1,71 +1,66 @@
 ---
 title: "About"
+format:
+  html:
+    toc: false
+    allow-html: true
+---
+---
+title: "About"
+format:
+  html:
+    toc: false
+    allow-html: true
 ---
 
-<style>
-.about-image {
-  max-width: 250px;
-  height: auto;
-  filter: grayscale(100%);
-  margin: 1rem auto;
-  display: block;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-.about-section {
-  max-width: 700px;
-  margin: 3rem auto;
-  font-family: 'Inter', sans-serif;
-  color: #003300;
-}
-.about-name {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.8rem;
-  color: #000000;
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-.about-bio {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  text-align: justify;
-  margin-top: 0;
-  padding: 0 1rem;
-}
-</style>
+::: {#about-page}
+
+<div class="about-container">
 
 <div class="about-section">
-  
-  <h2 class="about-name">Zachary Robarge</h2>
-  <img src="images/ZachRobarge.jpeg" alt="Zachary Robarge" class="about-image" />
-  <p class="about-bio">
-    Zach loves pokemon, Stardew, and saxophone, but not as much as he loves hiking, skiing, and Merritt.
-  </p>
+<h2 class="about-name">Zachary Robarge</h2>
+<img src="images/ZachRobarge.jpeg" alt="Zachary Robarge" class="about-image">
+<p class="about-bio">
+Zach Robarge recently moved to Denver from Massachusetts, where he worked professionally as a woodwind doubler and educator, specializing in saxophones, flute/piccolo, clarinets, and oboe. Zach holds a bachelor’s degree in saxophone performance and music education, a performance certificate in flute and oboe studies, and in the spring of 2022, Zach graduated with his masters in classical saxophone performance, all from The University of Massachusetts. Most recently, Zach
+Robarge was the Artist in Residence at The University of Massachusetts where he taught as Professor of Saxophone, filling in for his teacher and mentor Jonathan Hulting-Cohen while they were on sabbatical.
+
+
+In his ten years of private teaching at the Community Music School of Springfield, and in the Belchertown School District in Massachusetts, Zach worked with hundreds of different students ranging in ages from 2nd grade through adulthood on all saxophones, clarinets, flute and piccolo, oboe, bassoon, and piano. Zach’s students are regularly offered solo and leadership positions in their school bands, and accepted into Regional, District, and Honor Bands. He also taught several students who have been accepted into collegiate music programs such as the saxophone and clarinet studios at The University of Massachusetts, as well as the flute and saxophone studios at the Hart School of Music.
+
+
+In addition to his teaching, Zach maintains a busy and varied performance schedule. He has performed extensively with theater companies such as Barrington Stage Co and the Berkshire Theatre Group, as well as The Valley Winds, an award-winning community wind band based out of the pioneer valley. He has also played in a wide array of jazz/popular music groups, and chamber groups including big bands, jazz combos, saxophone trios and quartets, reed quintets, and other mixed chamber ensembles.
+</p>
 </div>
 
 <div class="about-section">
-  
-  <h2 class="about-name">Tyler Clayton Appel</h2>
-  <img src="images/TylerAppel.png" alt="Tyler Clayton Appel" class="about-image" />
-  <p class="about-bio">
-    Tyler is like a character out of a book but real.
-  </p>
+<h2 class="about-name">Tyler Clayton Appel</h2>
+<img src="images/TylerAppel.png" alt="Tyler Clayton Appel" class="about-image">
+<p class="about-bio">
+Tyler is like a character out of a book but real.
+</p>
 </div>
 
 <div class="about-section">
-  
-  <h2 class="about-name">Benjamin Porter</h2>
-  <img src="images/BenPorter.jpeg" alt="Benjamin Porter" class="about-image" />
-  <p class="about-bio">
-    Ben has never lost a game of Catan (to Merritt at least).
-  </p>
+<h2 class="about-name">Benjamin Porter</h2>
+<img src="images/BenPorter.jpeg" alt="Benjamin Porter" class="about-image">
+<p class="about-bio">
+Ben has never lost a game of Catan (to Merritt at least).
+</p>
 </div>
 
 <div class="about-section">
-  
-  <h2 class="about-name">Erik Anundson</h2>
-  <p class="about-bio">
-    Merritt wishes she knew Erik better.
-  </p>
+<h2 class="about-name">Erik Anundson</h2>
+<img src="images/ErikAnundson.jpg" alt="Erik Anundson" class="about-image">
+<p class="about-bio">
+Merritt wishes she knew Erik better.
+</p>
 </div>
+
+</div>
+
+<footer class="site-footer">
+  <p>&copy; 2025 Klock Quartet. All rights reserved.</p>
+</footer>
+:::
+
 

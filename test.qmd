@@ -1,0 +1,7 @@
+---
+title: "test"
+format: html
+editor: visual
+---
+
+<p style="color:red;font-weight:700;">If you see this in red, raw HTML is rendering.</p>
