@@ -213,3 +213,35 @@ body .container {
 .footer-button:hover {
   background-color: #555;
 }
+
+@media (max-width: 600px) {
+  #about-page .about-container {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  main.content,
+  .page-content,
+  .quarto-container,
+  body .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .about-bio {
+    text-align: left;
+    font-size: 0.95rem;
+    padding: 0;
+  }
+
+  .hero-image,
+  .mySwiper,
+  .site-footer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
