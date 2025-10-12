@@ -73,11 +73,15 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Music – Klock Saxophone Quartet">
 <meta property="og:description" content="">
-<meta property="og:image" content="images/weddinggood2.png">
+<meta property="og:image" content="https://merrittharlan.github.io/KlockQuartet/images/weddinggood2.png">
 <meta property="og:site_name" content="Klock Saxophone Quartet">
+<meta property="og:image:height" content="1342">
+<meta property="og:image:width" content="2026">
 <meta name="twitter:title" content="Music – Klock Saxophone Quartet">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="images/weddinggood2.png">
+<meta name="twitter:image" content="https://merrittharlan.github.io/KlockQuartet/images/weddinggood2.png">
+<meta name="twitter:image-height" content="1342">
+<meta name="twitter:image-width" content="2026">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -249,7 +253,7 @@ or use our <a href="./contact.html">Contact Form</a>.</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/merrittharlan\.github\.io\/KlockQuartet\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

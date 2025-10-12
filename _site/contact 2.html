@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index1 – Klock Saxophone Quartet</title>
+<title>Contact – Klock Saxophone Quartet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,14 +71,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="– Klock Saxophone Quartet">
-<meta property="og:image" content="images/QuartetPhoto.png">
+<meta property="og:title" content="Contact – Klock Saxophone Quartet">
 <meta property="og:site_name" content="Klock Saxophone Quartet">
-<meta property="og:image:alt" content="Klock Quartet">
-<meta name="twitter:title" content="– Klock Saxophone Quartet">
-<meta name="twitter:image" content="images/QuartetPhoto.png">
-<meta name="twitter:image:alt" content="Klock Quartet">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact – Klock Saxophone Quartet">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -110,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Music</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link active" href="./contact.html" aria-current="page"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -126,22 +122,114 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Contact</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<main>
-<section class="hero-section">
-<p><img src="images/QuartetPhoto.png" alt="Klock Quartet" class="hero-image" style="width: 800px;"></p>
-<p>
-The Klock Quartet is a saxophone quartet formed by a tight-knit group of musicians who met as undergraduates at the University of Massachusetts Amherst. Mentored by renowned professor Lynn Klock, the group forged a lasting musical bond and friendship that continues to shape their distinctive sound today. Group members include Zachary Robarge (Denver, CO), Benjamin Porter (Fort Worth, TX), Tyler Clayton Appel (New York City), and Erik Anundson (Detroit, Michigan).
-</p>
-<p>
-With performances spanning from the Saxophone Symposium at the University of Massachusetts Amherst to weddings, schools, and community events, the Klock Quartet brings expressive playing, rich harmonies, and a fresh blend of styles to every stage.
-</p>
-</section>
-</main>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<style>
+  .contact-intro {
+    max-width: 600px;
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    color: #36454F;
+  }
+
+  .contact-form {
+    max-width: 600px;
+    margin: 1rem auto 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .contact-form label {
+    font-weight: 600;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #36454F;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+  }
+
+  .contact-form button {
+    margin-top: 1.5rem;
+    background-color: #36454F;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #36454F;
+  }
+
+  .thank-you-message {
+    display: none;
+    text-align: center;
+    color: #006600;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+  }
+</style>
+<div class="contact-intro">
+<p>For bookings, workshop inquiries, or questions feel free to email us directly at <a href="mailto:klockquartet@gmail.com">klockquartet@gmail.com</a>, call (413)446-6285 or fill out the form below.</p>
+</div>
+<form class="contact-form" action="mailto:klockquartet@gmail.com" method="post" enctype="text/plain" onsubmit="showThankYou()">
+<p><label for="name">Name</label> <input type="text" name="Name" id="name" required=""></p>
+<p><label for="email">Email</label> <input type="email" name="Email" id="email" required=""></p>
+<label for="message">Message</label>
+<textarea name="Message" id="message" rows="6" required=""></textarea>
+<button type="submit">
+Send Message
+</button>
+</form>
+<div id="thankYou" class="thank-you-message">
+<p>Thank you for your message! Your email client should open shortly.</p>
+</div>
+<script>
+  function showThankYou() {
+    document.getElementById("thankYou").style.display = "block";
+  }
+</script>
 <footer class="site-footer">
 <p>
 © 2025 Klock Quartet. All rights reserved.
