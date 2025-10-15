@@ -246,3 +246,8 @@ h2 {
 main.content {
   padding-top: 3rem;
 }
+
+.page-title, 
+.quarto-title-block {
+  display: none !important;
+}
