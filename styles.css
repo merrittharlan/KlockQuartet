@@ -1,16 +1,18 @@
-/* ABOUT PAGE GRID */
+/* =========================================
+   ABOUT PAGE GRID (FULL WIDTH, RESPONSIVE)
+========================================= */
 #about-page .about-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* fits phones better */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   width: 100%;
-  max-width: 1200px; /* prevent over-wide layout on large screens */
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  max-width: none;           /* removes Lux/Bootstrap max width */
+  margin: 0;
+  padding: 0 2rem;
   box-sizing: border-box;
 }
 
-/* Cap the number of columns at 2 */
+/* Cap the number of columns at 2 on large screens */
 @media (min-width: 900px) {
   #about-page .about-container {
     grid-template-columns: repeat(2, 1fr);
@@ -52,6 +54,9 @@
   text-align: justify;
   margin-top: 0.5rem;
   padding: 0 0.5rem;
+  max-width: 60ch;           /* optional readability cap */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Responsive stacking */
@@ -66,19 +71,37 @@
   }
 }
 
-/* GLOBAL CONTAINERS */
+/* =========================================
+   REMOVE LUX/BOOTSTRAP WIDTH LIMITS
+========================================= */
+.container, 
+.container-fluid,
+.quarto-container,
+body .container {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+/* =========================================
+   GLOBAL CONTENT CONTAINERS
+========================================= */
 main.content,
 .page-content,
 .quarto-container,
 body .container {
-  max-width: 1600px !important;
   width: 100% !important;
   margin: 0 auto !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+  box-sizing: border-box;
 }
 
-/* HERO IMAGE FULL WIDTH */
+/* =========================================
+   HERO IMAGE (full width)
+========================================= */
 .hero-image {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
@@ -89,7 +112,9 @@ body .container {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* SLIDESHOW STYLING */
+/* =========================================
+   SLIDESHOW STYLING
+========================================= */
 .mySwiper {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
@@ -174,9 +199,14 @@ body .container {
   }
 }
 
-/* FOOTER FULL WIDTH (FIXED FOR MOBILE) */
+/* =========================================
+   FOOTER (FULL WIDTH)
+========================================= */
 .site-footer {
+  position: relative;
   width: 100%;
+  left: 0;
+  right: 0;
   background-color: #f0f0f0;
   padding: 25px 0;
   text-align: center;
@@ -184,9 +214,10 @@ body .container {
 }
 
 .site-footer .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +238,9 @@ body .container {
   background-color: #555;
 }
 
-/* MOBILE PADDING */
+/* =========================================
+   MOBILE PADDING ADJUSTMENTS
+========================================= */
 @media (max-width: 600px) {
   main.content,
   .page-content,
@@ -226,7 +259,9 @@ body .container {
   }
 }
 
-/* RESPONSIVE TYPOGRAPHY */
+/* =========================================
+   TYPOGRAPHY & TITLES
+========================================= */
 .navbar-brand {
   font-size: clamp(1rem, 4vw, 2rem);
   font-family: 'Playfair Display', serif;
@@ -242,12 +277,15 @@ h2 {
   margin-top: 2.5rem;
 }
 
-/* EXTRA SPACE BELOW NAVBAR */
-main.content {
-  padding-top: 3rem;
-}
-
+/* Hide page titles (keep in navbar) */
 .page-title, 
 .quarto-title-block {
   display: none !important;
+}
+
+/* =========================================
+   EXTRA SPACE BELOW NAVBAR
+========================================= */
+main.content {
+  padding-top: 3rem;
 }
