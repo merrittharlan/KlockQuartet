@@ -289,3 +289,69 @@ h2 {
 main.content {
   padding-top: 3rem;
 }
+
+/* === FORCE FULL-WIDTH CONTENT AND FOOTER === */
+
+/* 1. Override Quarto + Bootstrap .container max-width */
+main.content.container,
+body .content.container,
+.quarto-container,
+body .container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+/* 2. Make about page grid scale full-width */
+#about-page .about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+/* 3. Ensure images and bios expand naturally */
+.about-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* 4. Optional: keep text readable on large monitors */
+.about-bio {
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
+/* 5. Full-width footer */
+.site-footer {
+  width: 100vw;                 /* span entire viewport */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #f0f0f0;
+  padding: 25px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Footer text styling */
+.site-footer .footer-content {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
